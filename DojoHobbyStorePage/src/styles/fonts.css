@@ -1,0 +1,27 @@
+ @import url('https://fonts.cdnfonts.com/css/koulen');
+
+ * {
+    font-family: "Koulen";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ @media (max-width:1200px){
+    html{
+        font-size: 55%;
+    }
+}
+@media (max-width: 768px) {
+    html{
+        font-size: 48%;
+    }
+  }
+
+@media (max-width:458px){
+    html{
+        font-size: 49%;
+    } 
+}
+
+                

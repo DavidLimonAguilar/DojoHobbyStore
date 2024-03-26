@@ -1,0 +1,67 @@
+.informacion {
+    width: 30%;
+    text-align: center;
+    margin: 5rem 0;
+    padding: 1rem;
+    color: white;
+    background: #3B3838;
+    border-radius: 4rem;
+    font-size: 2rem;
+    letter-spacing: .4rem;
+}
+
+.title-info {
+    width: 100%;
+    display: flex;
+    justify-content:center;
+}
+
+/* .info-horarios {
+    border: 3px solid red;
+} */
+
+.info-horarios h3 {
+    text-align: center;
+    color: #ED2929;
+    font-size: 2rem;
+    letter-spacing: .22rem;
+}
+
+.table-horario {
+    display: flex;
+    justify-content: center;
+}
+
+.table-horario table{
+    margin-top: 2.5rem;
+    background: #3B3838;
+    color: white;
+    width: 40%;
+    padding: 3rem 3rem;
+    border-radius: 3rem;
+    line-height: 2.8rem;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.ubicacion {
+    margin-top: 5rem;
+}
+
+.ubicacion h3 {
+    text-align: center;
+    color: #ED2929;
+    font-size: 2rem;
+    letter-spacing: .22rem;
+}
+
+.maps{
+    display: flex;
+    justify-content: center;
+    margin: 3rem;
+}
+
+.maps iframe {
+    width: 80%;
+    height: 30rem;
+}

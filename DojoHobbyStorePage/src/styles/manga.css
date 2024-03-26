@@ -1,0 +1,27 @@
+.manga-main{
+    /* border: 3px solid red; */
+    width: 90%;
+    margin-top: 7rem;
+    padding: 5rem;
+    background: #3B3838;
+    color: white;
+    border-radius: 0 6rem 6rem 0;
+    letter-spacing: .22rem;
+    line-height: 2.5rem;
+}
+.manga-main h2 {
+    width: 70%;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.manga-text{
+    font-size: 1.3rem;
+    display: flex;
+}
+
+.manga-text img{
+    margin-left: 5rem;
+    width: 17rem;
+}

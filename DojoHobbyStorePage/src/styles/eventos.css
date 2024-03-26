@@ -1,0 +1,82 @@
+.title-eve {
+    display: flex;
+    justify-content: center;
+}
+
+.eve {
+    width: 25%;
+    text-align: center;
+    margin: 5rem 0;
+    padding: 1rem;
+    color: white;
+    background: #3B3838;
+    border-radius: 4rem;
+    font-size: 2rem;
+    letter-spacing: .4rem;
+}
+
+.targets {
+   display: flex;
+   justify-content: center;
+   padding: 3rem;
+}
+
+.main-target {
+    margin-right:5rem;
+    width: 20rem;
+    height: 30rem;
+    position: relative;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 2.5rem;
+    transition: .3s ease;
+    top:0;
+    box-shadow: 20px 30px 0 rgba(0, 0, 0, 0.25);
+}
+
+.main-target:hover {
+    top: -5rem;
+    box-shadow: 0 40px 30px  rgba(0, 0, 0, 0.25);
+}
+.main-target img {
+    position: absolute;
+    z-index: -1;
+    filter: blur(3px);
+}
+
+.background1 {
+    width: 60rem;
+    right: -60%;
+    top: -10%;
+}
+
+.background2 {
+    top: -10%;
+    width: 60rem;
+}
+
+.background3 {
+    width: 95rem;
+    left: -60%;
+    top:-50%;
+}
+
+.content {
+    padding: 3rem;
+    color: white;
+    letter-spacing: .3rem;
+}
+
+.content h2 {
+    text-align: center;
+}
+
+.title-targets {
+    text-align: center;
+    padding: 1.4rem 0;
+    color: #fb6b6b;
+}
+
+.text {
+    line-height: 2.5rem;
+}
