@@ -65,3 +65,48 @@
     width: 80%;
     height: 30rem;
 }
+
+@media (max-width:1200px){
+    html{
+        font-size: 55%;
+    }
+}
+@media (max-width: 768px) {
+    html{
+        font-size: 48%;
+    }
+  }
+
+@media (max-width:460px){
+    .informacion {
+        width: 50%;
+        font-size: 3rem;
+    }
+    
+    .info-horarios h3 {
+        font-size: 3.5rem;
+    }
+
+    .table-horario table{
+        margin-top: 2.5rem;
+        background: #3B3838;
+        color: white;
+        width: 90%;
+        font-size: 2.2rem;
+    }
+    
+    .ubicacion h3 {
+        font-size: 3.5rem;
+    }
+    
+    .maps{
+        display: flex;
+        justify-content: center;
+        margin: 3rem;
+    }
+    
+    .maps iframe {
+        width: 90%;
+        height: 30rem;
+    }
+}

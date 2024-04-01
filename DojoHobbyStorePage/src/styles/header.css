@@ -40,6 +40,10 @@ header{
     padding: 2rem;
 }
 
+.first-header img {
+    width: 12rem;
+} 
+
 nav {
     display: inline-block;
     display: flex;
@@ -115,4 +119,29 @@ nav li a {
     padding: .1rem 1.3rem;
     border-radius: .4rem;
     background: #E35B5B;
+}
+
+@media (max-width:1200px){
+    html{
+        font-size: 55%;
+    }
+}
+@media (max-width: 768px) {
+    html{
+        font-size: 48%;
+    }
+  }
+
+@media (max-width:500px){
+    html{
+        font-size: 49%;
+    } 
+
+    nav{
+        display: none;
+    }
+    
+    .heacer-List p {
+        font-size:1.8rem;
+    }
 }

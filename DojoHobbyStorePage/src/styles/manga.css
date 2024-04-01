@@ -25,3 +25,52 @@
     margin-left: 5rem;
     width: 17rem;
 }
+
+
+@media (max-width:1200px){
+    html{
+        font-size: 55%;
+    }
+}
+@media (max-width: 768px) {
+    html{
+        font-size: 48%;
+    }
+  }
+
+@media (max-width:610px){
+    .manga-text img{
+        height: 18rem;
+    }
+}
+
+@media (max-width:470px){
+    .manga-main{
+        width: 100%;
+        border-radius: 0 0 0 0;
+    }
+
+    .manga-text{
+        display: block;
+    }
+    .manga-main h2 {
+        width: 100%;
+        text-align: center;
+        font-size: 4rem;
+    }
+    
+    .manga-text{
+        font-size: 2.2rem;
+        line-height: 3rem;
+    }
+
+    .charlotte {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .manga-text img{
+        margin-top: 4rem;
+    }
+}
